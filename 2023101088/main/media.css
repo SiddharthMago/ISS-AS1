@@ -1,0 +1,15 @@
+@media screen and (max-width: 1200px) {
+   #nav_bar {
+    display: none;
+   }
+
+   #mini_nav {
+    display: flex;
+   }
+}
+
+@media screen and (max-width: 600px) {
+   .grid-container {
+     grid-template-columns: repeat(auto-fit, minmax(100%, 1fr)); /* 4x1 grid */
+   }
+ }
